@@ -1,0 +1,147 @@
+{
+  "maincategory": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "314e",
+      "name": "Services"
+    },
+    {
+      "id": "cf1c",
+      "name": "Courses"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "ff76",
+      "name": "Generative AI"
+    },
+    {
+      "id": "938e",
+      "name": "Software Development"
+    },
+    {
+      "id": "1bcc",
+      "name": "STEM Programs & ATL Lab Setup"
+    },
+    {
+      "id": "00e2",
+      "name": "Tailored ChatGPT Development & Integration"
+    },
+    {
+      "id": "2fff",
+      "name": "Development & Integration Advanced Large Language"
+    },
+    {
+      "id": "be76",
+      "name": " Mobile App Development"
+    },
+    {
+      "id": "111a",
+      "name": "Corporate Trainings"
+    },
+    {
+      "id": "dc30",
+      "name": "School Management Software"
+    },
+    {
+      "id": "5d3c",
+      "name": "Secure Enterprise Software Development"
+    }
+  ],
+  "product": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "8b9e",
+      "name": "Web Designing",
+      "maincategory": "Courses",
+      "subcategory": "Software Development",
+      "baseprice": 5000,
+      "discount": 25,
+      "finalprice": 3750,
+      "description": "This is Sample Product",
+      "pic1": "_DSC5940.JPG"
+    },
+    {
+      "id": "fd49",
+      "name": "Node Developer",
+      "maincategory": "Courses",
+      "subcategory": "Software Development",
+      "baseprice": 2000,
+      "discount": 20,
+      "finalprice": 1600,
+      "description": "This is Sample Product",
+      "pic1": "_DSC5940.JPG"
+    },
+    {
+      "id": "dd98",
+      "name": "Django",
+      "maincategory": "Courses",
+      "subcategory": "Corporate Trainings",
+      "baseprice": 4000,
+      "discount": 15,
+      "finalprice": 3400,
+      "description": "This is Sample Product",
+      "pic1": "profile.jpeg"
+    }
+  ],
+  "user": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "7c68",
+      "name": "",
+      "email": "yogi.121@outlook.com",
+      "phone": "7983914058",
+      "username": "yogi1217",
+      "password": "Yogi@123",
+      "role": "User"
+    },
+    {
+      "id": "7b90",
+      "name": "",
+      "email": "santosh.kumar@gmail.com",
+      "phone": "8268458796",
+      "username": "santosh117",
+      "password": "Santosh@123",
+      "role": "Admin"
+    }
+  ],
+  "frontend": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "dc00",
+      "pic": "b6.webp",
+      "description": "This first Advisions"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "0"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "0"
+    }
+  ],
+  "newsletter": [
+    {
+      "id": "0"
+    }
+  ],
+  "contact": [
+    {
+      "id": "0"
+    }
+  ]
+}

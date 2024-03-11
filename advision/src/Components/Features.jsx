@@ -1,0 +1,131 @@
+import React from 'react'
+
+export default function Features() {
+  return (
+    <>
+     {/* <!-- Hero Start --> */}
+    <div className="container-fluid pt-5 bg-primary hero-header">
+        <div className="container pt-5">
+            <div className="row g-5 pt-5">
+                <div className="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 className="display-4 text-white mb-4 animated slideInRight">Features</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li className="breadcrumb-item"><a className="text-white" href="*">Home</a></li>
+                            <li className="breadcrumb-item"><a className="text-white" href="*">Pages</a></li>
+                            <li className="breadcrumb-item text-white active" aria-current="page">Features</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div className="col-lg-6 align-self-end text-center text-lg-end">
+                    <img className="img-fluid" src="assets/img/hero-img.png" alt="*" style={{maxHeight: "300px"}}/>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Hero End --> */}
+
+
+    {/* <!-- Full Screen Search Start --> */}
+    <div className="modal fade" id="searchModal" tabIndex="-1">
+        <div className="modal-dialog modal-fullscreen">
+            <div className="modal-content" style={{background: "rgba(20, 24, 62, 0.7)"}}>
+                <div className="modal-header border-0">
+                    <button type="button" className="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div className="modal-body d-flex align-items-center justify-content-center">
+                    <div className="input-group" style={{maxWidth: "600px"}}>
+                        <input type="text" className="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword"/>
+                        <button className="btn btn-light px-4"><i className="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Full Screen Search End --> */}
+
+
+    {/* <!-- Feature Start --> */}
+    <div className="container-fluid bg-dark feature pt-5">
+        <div className="container pt-5">
+            <div className="row g-5">
+                <div className="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div className="btn btn-sm border rounded-pill text-white px-3 mb-3">Why Choose Us</div>
+                    <h1 className="text-white mb-4">We're Best in AI Industry with 10 Years of Experience</h1>
+                    <p className="text-light mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed
+                        stet no labore lorem sit. Sanctus clita duo justo et tempor</p>
+                    <div className="d-flex align-items-center text-white mb-3">
+                        <div className="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i className="fa fa-check"></i>
+                        </div>
+                        <span>Diam dolor diam ipsum et tempor sit</span>
+                    </div>
+                    <div className="d-flex align-items-center text-white mb-3">
+                        <div className="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i className="fa fa-check"></i>
+                        </div>
+                        <span>Diam dolor diam ipsum et tempor sit</span>
+                    </div>
+                    <div className="d-flex align-items-center text-white mb-3">
+                        <div className="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i className="fa fa-check"></i>
+                        </div>
+                        <span>Diam dolor diam ipsum et tempor sit</span>
+                    </div>
+                    <div className="row g-4 pt-3">
+                        <div className="col-sm-6">
+                            <div className="d-flex rounded p-3" style={{background: "rgba(256, 256, 256, 0.1)"}}>
+                                <i className="fa fa-home fa-3x text-white"></i>
+                                <div className="ms-3">
+                                    <h2 className="text-white mb-0" data-toggle="counter-up">9999</h2>
+                                    <p className="text-white mb-0">Happy Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-sm-6">
+                            <div className="d-flex rounded p-3" style={{background: "rgba(256, 256, 256, 0.1)"}}>
+                                <i className="fa fa-home fa-3x text-white"></i>
+                                <div className="ms-3">
+                                    <h2 className="text-white mb-0" data-toggle="counter-up">9999</h2>
+                                    <p className="text-white mb-0">Project Complete</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <img className="img-fluid" src="assets/img/feature.png" alt="*"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Feature End --> */}
+
+
+    {/* <!-- Newsletter Start --> */}
+    <div className="container-fluid bg-primary newsletter py-5">
+        <div className="container">
+            <div className="row g-5 align-items-center">
+                <div className="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img className="img-fluid" src="assets/img/newsletter.png" alt="*"/>
+                </div>
+                <div className="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                    <div className="btn btn-sm border rounded-pill text-white px-3 mb-3">Newsletter</div>
+                    <h1 className="text-white mb-4">Let's subscribe the newsletter</h1>
+                    <div className="position-relative w-100 mt-3 mb-2">
+                        <input className="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                            placeholder="Enter Your Email" style={{height: "48px"}}/>
+                        <button type="button" className="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                className="fa fa-paper-plane text-primary fs-4"></i></button>
+                    </div>
+                    <small className="text-white-50">Diam sed sed dolor stet amet eirmod</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Newsletter End --> */}
+    </>
+  )
+}
