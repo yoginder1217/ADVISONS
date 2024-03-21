@@ -1,0 +1,112 @@
+{
+  "maincategory": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "314e",
+      "name": "Corporate Training"
+    },
+    {
+      "id": "cf1c",
+      "name": "Courses"
+    }
+  ],
+  "subcategory": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "ff76",
+      "name": "Generative AI"
+    },
+    {
+      "id": "938e",
+      "name": "Software Development"
+    },
+    {
+      "id": "1bcc",
+      "name": "STEM Programs & ATL Lab Setup"
+    },
+    {
+      "id": "00e2",
+      "name": "Tailored ChatGPT Development & Integration"
+    },
+    {
+      "id": "2fff",
+      "name": "Development & Integration Advanced Large Language"
+    },
+    {
+      "id": "be76",
+      "name": " Mobile App Development"
+    },
+    {
+      "id": "111a",
+      "name": "Corporate Trainings"
+    },
+    {
+      "id": "dc30",
+      "name": "School Management Software"
+    },
+    {
+      "id": "5d3c",
+      "name": "Secure Enterprise Software Development"
+    }
+  ],
+  "product": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "0c1f",
+      "name": "Node Developer",
+      "maincategory": "Corporate Training",
+      "subcategory": "Generative AI",
+      "baseprice": 5000,
+      "discount": 14,
+      "finalprice": 4300,
+      "description": "This is Node Product",
+      "pic": "aws_1.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "0"
+    }
+  ],
+  "frontend": [
+    {
+      "id": "0"
+    },
+    {
+      "id": "a83a",
+      "pic": "AI.jpg",
+      "description": "Welcome To Advisions Research and Development"
+    },
+    {
+      "id": "0bd4",
+      "pic": "pexels1.jpg",
+      "description": "It all about our services"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "0"
+    }
+  ],
+  "checkout": [
+    {
+      "id": "0"
+    }
+  ],
+  "newsletter": [
+    {
+      "id": "0"
+    }
+  ],
+  "contact": [
+    {
+      "id": "0"
+    }
+  ]
+}
