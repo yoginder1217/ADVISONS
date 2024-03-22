@@ -99,6 +99,8 @@ export default function Home() {
                                         <li>School Management Software</li>
                                         <li>STEM Programs & ATL Lab Setup</li>
                                         <li>Corporate Trainings</li>
+                                        <li>Robotics Process Automation</li>
+                                        <li>Digital Twins</li>
                                     </ul>
                                 </div>
                                 <div className="col-sm-6">
