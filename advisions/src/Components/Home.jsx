@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { getFrontend } from '../Store/ActionCreators/FrontendActionCreators'
-import Newsletter from './Newsletter'
+import Team from './Team'
 
 export default function Home() {
     var [frontends, setFrontends] = useState([])
@@ -127,6 +127,98 @@ export default function Home() {
             {/* <!-- About End --> */}
 
 
+<<<<<<< HEAD
+=======
+            {/* <!-- Service Start --> */}
+            <div className="container-fluid bg-light mt-5 py-5">
+                <div className="container py-5">
+                    <div className="row g-5 align-items-center">
+                        <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                            <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
+                            <h1 className="mb-4">Our Innovative Solutions for Your Business</h1>
+                            <p className="mb-4">Elevate your business with personalized solutions crafted to precisely align with your requirements, maximizing your potential for success.</p>
+                            {/* <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a> */}
+                        </div>
+                        <div className="col-lg-7">
+                            <div className="row g-4">
+                                <div className="col-md-6">
+                                    <div className="row g-4">
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-brain fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Advanced Generative AI Development</h5>
+                                                <p>Train your dataset to generate original outputs such as images, text, or music using state-of-the-art generative AI techniques.</p>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
+                                            </div>
+                                        </div>
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-graduation-cap fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Corporate Trainings</h5>
+                                                <p>Boost team expertise with customized Corporate Training Solutions for colleges and startups. Enhance learning, drive innovation, and thrive in today's competitive industry.</p>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
+                                            </div>
+                                        </div>
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-code fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Robotics Process Automation</h5>
+                                                <p>Enhance business efficiency with RPA, employing software robots to automate repetitive tasks, streamlining processes with advanced automation technology for increased productivity.</p>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6 pt-md-4">
+                                    <div className="row g-4">
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-code fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Custom Web Application Development</h5>
+                                                <p>Leverage our tailor-made services to address your specific industry needs, cater to your target audience, and enhance operational efficiency.</p>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
+                                            </div>
+                                        </div>
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-brain fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">STEM Programs & ATL Lab Setup</h5>
+                                                <p>Transform education with Revolutionizing Education, featuring STEM Programs and AI-Robotics Labs, empowering students for future tech challenges.</p>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-code fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Digital Twins</h5>
+                                                <p>Utilize digital twin technology to create virtual models of assets and processes, facilitating real-time monitoring and simulation for operational optimization, reduced downtime, and innovation.</p>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <!-- Service End --> */}
+
+
+>>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
             {/* <!-- Feature Start --> */}
             <div className="container-fluid bg-primary feature pt-5">
                 <div className="container pt-5">
@@ -452,6 +544,14 @@ export default function Home() {
             {/* <!-- FAQs Start --> */}
 
 
+<<<<<<< HEAD
+=======
+            {/* <!-- Team Start --> */}
+            <Team/>
+            {/* <!-- Team End --> */}
+
+
+>>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
             {/* <!-- Testimonial Start --> */}
             {/* <div className="container-xxl py-5">
                 <div className="container py-5">
@@ -508,7 +608,10 @@ export default function Home() {
                 </div>
             </div> */}
             {/* <!-- Testimonial End --> */}
+<<<<<<< HEAD
             <Newsletter/>
+=======
+>>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
         </>
     )
 }
