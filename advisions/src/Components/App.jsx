@@ -11,7 +11,7 @@ import Team from './Team'
 import FAQs from './FAQs'
 import Testimonial from './Testimonial'
 import Contact from './Contact'
-import Courses from './Courses'
+import Blog from './Blog'
 import SingleCoursePage from './SingleCoursePage'
 import Login from './Login'
 import Signup from './Signup'
@@ -68,7 +68,7 @@ export default function App() {
         <Route path='/faq' element={<FAQs />} />
         <Route path='/testimonial' element={<Testimonial />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/courses' element={<Courses />} />
+        <Route path='/blog' element={<Blog />} />
         <Route path='/single-course-page' element={<SingleCoursePage/>}/>
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup/>} />

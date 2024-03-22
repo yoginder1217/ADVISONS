@@ -77,16 +77,16 @@ export default function Footer() {
                   <i className="fab fa-linkedin-in"></i>
                 </a>
                 <a className="btn btn-outline-light btn-social" href="https://www.upwork.com/agencies/1759834476800745472/" target="_blank" rel="noreferrer">
-                <i class="fa-brands fa-upwork-up"></i>
+                <i class="fa-brands fa-upwork-up">Up</i>
                 </a>
               </div>
             </div>
             <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
               <h5 className="text-white mb-4">Popular Link</h5>
-              <a className="btn btn-link" href="*">
+              <a className="btn btn-link" href="/about">
                 About Us
               </a>
-              <a className="btn btn-link" href="*">
+              <a className="btn btn-link" href="/contact">
                 Contact Us
               </a>
               <a className="btn btn-link" href="*">
@@ -132,9 +132,9 @@ export default function Footer() {
               <div className="col-md-3 text-center text-md-end">
                 <div className="footer-menu">
                   <a href="/">Home</a>
-                  <a href="/">Cookies</a>
+                  <a href="*">Cookies</a>
                   <a href="/contact">Help</a>
-                  <a href="/faq">FAQs</a>
+                  <a href="*">FAQs</a>
                 </div>
               </div>
             </div>

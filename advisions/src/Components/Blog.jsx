@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Newsletter from './Newsletter'
 
 export default function Courses() {
   return (
@@ -9,11 +10,11 @@ export default function Courses() {
                 <div className="container pt-5">
                     <div className="row g-5 pt-5">
                         <div className="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
-                            <h1 className="display-4 text-white mb-4 animated slideInRight">Our Courses</h1>
+                            <h1 className="display-4 text-white mb-4 animated slideInRight">Our Blogs</h1>
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0">
                                     <li className="breadcrumb-item"><a className="text-white" href="*">Home</a></li>
-                                    <li className="breadcrumb-item text-white active" aria-current="page">Courses</li>
+                                    <li className="breadcrumb-item text-white active" aria-current="page">Blogs</li>
                                 </ol>
                             </nav>
                         </div>
@@ -52,7 +53,7 @@ export default function Courses() {
                 <div className="container py-5">
                     <div className="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style={{maxWidth: "500px"}}>
                         <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Case Study</div>
-                        <h1 className="mb-4">Explore Our Recent AI Case Studies</h1>
+                        <h1 className="mb-4">Explore Our Recent AI Blogs</h1>
                     </div>
                     <div className="row g-4">
                         <div className="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
@@ -60,7 +61,7 @@ export default function Courses() {
                                 <img className="img-fluid" src="assets/img/project-1.jpg" alt=""/>
                                     <Link className="case-overlay text-decoration-none" to="/course-page">
                                         <small>Robotic Automation</small>
-                                        <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                        <h5 className="lh-base text-white mb-3">Coming Soon
                                         </h5>
                                         <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                                     </Link>
@@ -71,7 +72,7 @@ export default function Courses() {
                                 <img className="img-fluid" src="assets/img/project-2.jpg" alt="*"/>
                                     <a className="case-overlay text-decoration-none" href="*">
                                         <small>Machine learning</small>
-                                        <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                        <h5 className="lh-base text-white mb-3">Coming Soon
                                         </h5>
                                         <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                                     </a>
@@ -82,7 +83,7 @@ export default function Courses() {
                                 <img className="img-fluid" src="assets/img/project-3.jpg" alt="*"/>
                                     <a className="case-overlay text-decoration-none" href="*">
                                         <small>Data Analysis</small>
-                                        <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                        <h5 className="lh-base text-white mb-3">Coming Soon
                                         </h5>
                                         <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                                     </a>
@@ -93,7 +94,7 @@ export default function Courses() {
                                 <img className="img-fluid" src="assets/img/project-1.jpg" alt=""/>
                                     <a className="case-overlay text-decoration-none" href="*">
                                         <small>FullStack Web Development</small>
-                                        <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                        <h5 className="lh-base text-white mb-3">Coming Soon
                                         </h5>
                                         <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                                     </a>
@@ -104,7 +105,7 @@ export default function Courses() {
                                 <img className="img-fluid" src="assets/img/project-2.jpg" alt="*"/>
                                     <a className="case-overlay text-decoration-none" href="*">
                                         <small>VLSI</small>
-                                        <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                        <h5 className="lh-base text-white mb-3">Coming Soon
                                         </h5>
                                         <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                                     </a>
@@ -115,7 +116,7 @@ export default function Courses() {
                                 <img className="img-fluid" src="assets/img/project-3.jpg" alt="*"/>
                                     <a className="case-overlay text-decoration-none" href="*">
                                         <small>Microprocessor</small>
-                                        <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                        <h5 className="lh-base text-white mb-3">Coming Soon
                                         </h5>
                                         <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                                     </a>
@@ -128,7 +129,7 @@ export default function Courses() {
 
 
             {/* <!-- FAQs Start --> */}
-            <div className="container-fluid py-5">
+            {/* <div className="container-fluid py-5">
                 <div className="container py-5">
                     <div className="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style={{maxWidth: "500px"}}>
                         <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Popular FAQs</div>
@@ -257,12 +258,12 @@ export default function Courses() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- FAQs Start --> */}
 
 
             {/* <!-- Newsletter Start --> */}
-            <div className="container-fluid bg-primary newsletter py-5">
+            {/* <div className="container-fluid bg-primary newsletter py-5">
                 <div className="container">
                     <div className="row g-5 align-items-center">
                         <div className="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
@@ -277,11 +278,12 @@ export default function Courses() {
                                     <button type="button" className="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
                                         className="fa fa-paper-plane text-primary fs-4"></i></button>
                             </div>
-                            <small className="text-white-50">Diam sed sed dolor stet amet eirmod</small>
+                            <small className="text-white-50">Stay Ahead with Our Insights: Your Gateway to the Future of Software and AI.</small>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <Newsletter/>
             {/* <!-- Newsletter End --> */}</>
   )
 }

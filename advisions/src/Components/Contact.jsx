@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 import { useDispatch } from 'react-redux'
 import { addContact } from "../Store/ActionCreators/ContactActionCreators"
+import Newsletter from './Newsletter'
 export default function Contact() {
     var dispatch = useDispatch()
     var [show, setshow] = useState(false)
@@ -97,9 +98,6 @@ export default function Contact() {
                 {
                                 show ? <div class="alert alert-success text-center alert-dismissible fade show" role="alert">
                                     Thanks to Share Your Query With US!!! Our Team Will Contact You Soon!!!
-                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
                                 </div> : ""
                             }
                      <div className="wow fadeIn" data-wow-delay="0.3s">
@@ -143,7 +141,7 @@ export default function Contact() {
         
 
     {/* <!-- Newsletter Start --> */}
-    <div className="container-fluid bg-primary newsletter py-5">
+    {/* <div className="container-fluid bg-primary newsletter py-5">
         <div className="container">
             <div className="row g-5 align-items-center">
                 <div className="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
@@ -162,7 +160,8 @@ export default function Contact() {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
+    <Newsletter/>
     {/* <!-- Newsletter End --> */}
     </>
   )

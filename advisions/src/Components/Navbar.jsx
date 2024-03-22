@@ -51,11 +51,11 @@ export default function Navbar() {
                     Our Work
                   </a>
                   <div className="dropdown-menu bg-light mt-2">
-                    <Link to="/courses" className="dropdown-item">
-                      Courses
+                    <Link to="/blog" className="dropdown-item">
+                      Blog
                     </Link>
-                    <Link to="/project" className="dropdown-item">
-                      Projects
+                    <Link to="/product" className="dropdown-item">
+                      Products
                     </Link>
                     {/* <Link to="/features" className="dropdown-item">
                       Features
@@ -63,9 +63,9 @@ export default function Navbar() {
                     <Link to="/team" className="dropdown-item">
                       Our Team
                     </Link>
-                    <Link to="/faq" className="dropdown-item">
+                    {/* <Link to="/faq" className="dropdown-item">
                       FAQs
-                    </Link>
+                    </Link> */}
                     {/* <Link to="/testimonial" className="dropdown-item">
                       Testimonial
                     </Link> */}
