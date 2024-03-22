@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 import { getFrontend } from '../Store/ActionCreators/FrontendActionCreators'
-import Newsletter from './Newsletter'
+import Team from './Team'
 
 export default function Home() {
     var [frontends, setFrontends] = useState([])
@@ -33,7 +33,7 @@ export default function Home() {
                                     <div className="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">AI.Tech</div>
                                     <h1 className="display-4 text-white mb-4 animated slideInRight">{item.des}</h1>
                                     <p className="text-white mb-4 animated slideInRight">Enhance Your Vision, Transform Your Life</p>
-                                    <a href="*" className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Read More</a>
+                                    {/* <a href="*" className="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Read More</a> */}
                                     <a href="*" className="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
                                 </div>
                                 <div className="col-lg-6 align-self-end text-center text-lg-end">
@@ -111,7 +111,7 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="d-flex align-items-center mt-4">
-                                <a className="btn btn-primary rounded-pill px-4 me-3" href="*">Read More</a>
+                                {/* <a className="btn btn-primary rounded-pill px-4 me-3" href="*">Read More</a> */}
                                 <a className="btn btn-outline-primary btn-square me-3" href="mailto:advisions.ard@gmail.com" target="_blank" rel="noreferrer">
                                     <i className="fab fa-google"></i></a>
                                 <a className="btn btn-outline-primary btn-square me-3" href="*"><i className="fab fa-twitter"></i></a>
@@ -133,7 +133,7 @@ export default function Home() {
                             <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
                             <h1 className="mb-4">Our Innovative Solutions for Your Business</h1>
                             <p className="mb-4">Elevate your business with personalized solutions crafted to precisely align with your requirements, maximizing your potential for success.</p>
-                            <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a>
+                            {/* <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a> */}
                         </div>
                         <div className="col-lg-7">
                             <div className="row g-4">
@@ -146,7 +146,7 @@ export default function Home() {
                                                 </div>
                                                 <h5 className="mb-3">Advanced Generative AI Development</h5>
                                                 <p>Train your dataset to generate original outputs such as images, text, or music using state-of-the-art generative AI techniques.</p>
-                                                <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
                                             </div>
                                         </div>
                                         <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
@@ -156,7 +156,17 @@ export default function Home() {
                                                 </div>
                                                 <h5 className="mb-3">Corporate Trainings</h5>
                                                 <p>Boost team expertise with customized Corporate Training Solutions for colleges and startups. Enhance learning, drive innovation, and thrive in today's competitive industry.</p>
-                                                <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
+                                            </div>
+                                        </div>
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-code fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Robotics Process Automation</h5>
+                                                <p>Enhance business efficiency with RPA, employing software robots to automate repetitive tasks, streamlining processes with advanced automation technology for increased productivity.</p>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
                                             </div>
                                         </div>
                                     </div>
@@ -170,7 +180,7 @@ export default function Home() {
                                                 </div>
                                                 <h5 className="mb-3">Custom Web Application Development</h5>
                                                 <p>Leverage our tailor-made services to address your specific industry needs, cater to your target audience, and enhance operational efficiency.</p>
-                                                <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
                                             </div>
                                         </div>
                                         <div className="col-12 wow fadeIn" data-wow-delay="0.7s">
@@ -180,7 +190,18 @@ export default function Home() {
                                                 </div>
                                                 <h5 className="mb-3">STEM Programs & ATL Lab Setup</h5>
                                                 <p>Transform education with Revolutionizing Education, featuring STEM Programs and AI-Robotics Labs, empowering students for future tech challenges.</p>
-                                                <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
+                                            </div>
+                                        </div>
+                                        
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-code fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Digital Twins</h5>
+                                                <p>Utilize digital twin technology to create virtual models of assets and processes, facilitating real-time monitoring and simulation for operational optimization, reduced downtime, and innovation.</p>
+                                                {/* <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a> */}
                                             </div>
                                         </div>
                                     </div>
@@ -298,7 +319,7 @@ export default function Home() {
 
 
             {/* <!-- FAQs Start --> */}
-            <div className="container-fluid py-5">
+            {/* <div className="container-fluid py-5">
                 <div className="container py-5">
                     <div className="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style={{ maxWidth: "500px" }}>
                         <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Popular FAQs</div>
@@ -427,105 +448,12 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* <!-- FAQs Start --> */}
 
 
             {/* <!-- Team Start --> */}
-            <div className="container-fluid bg-light py-5">
-                <div className="container py-5">
-                    <div className="row g-5 align-items-center">
-                        <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                            <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Team</div>
-                            <h1 className="mb-4">Meet Our Experienced Team Members</h1>
-                            <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                                amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                                clita duo justo et tempor eirmod magna dolore erat amet</p>
-                            <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="row g-4">
-                                <div className="col-md-6">
-                                    <div className="row g-4">
-                                        <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
-                                            <div className="team-item bg-white text-center rounded p-4 pt-0">
-                                                <img className="img-fluid rounded-circle p-4" src="assets/img/santosh.jpeg" alt="*" />
-                                                <h5 className="mb-0">Santosh Kumar</h5>
-                                                <small>Founder & CEO</small>
-                                                {/* <div className="d-flex justify-content-center mt-3">
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-facebook-f"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-twitter"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-instagram"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-linkedin-in"></i></a>
-                                                </div> */}
-                                            </div>
-                                        </div>
-                                        <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                            <div className="team-item bg-white text-center rounded p-4 pt-0">
-                                                <img className="img-fluid rounded-circle p-4" src="assets/img/Kuldeepji.png" alt="*" />
-                                                <h5 className="mb-0">Mayank Verma</h5>
-                                                <small>Executive Manager</small>
-                                                {/* <div className="d-flex justify-content-center mt-3">
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-facebook-f"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-twitter"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-instagram"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-linkedin-in"></i></a>
-                                                </div> */}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-6 pt-md-4">
-                                    <div className="row g-4">
-                                        <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
-                                            <div className="team-item bg-white text-center rounded p-4 pt-0">
-                                                <img className="img-fluid rounded-circle p-4" src="assets/img/Kuldeepji.png" alt="*" />
-                                                <h5 className="mb-0">Sandeep Malhotra</h5>
-                                                <small>Co Founder</small>
-                                                {/* <div className="d-flex justify-content-center mt-3">
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-facebook-f"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-twitter"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-instagram"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-linkedin-in"></i></a>
-                                                </div> */}
-                                            </div>
-                                        </div>
-                                        <div className="col-12 wow fadeIn" data-wow-delay="0.7s">
-                                            <div className="team-item bg-white text-center rounded p-4 pt-0">
-                                                <img className="img-fluid rounded-circle p-4" src="assets/img/Kuldeepji.png" alt="*" />
-                                                <h5 className="mb-0">Kuldeep Singh</h5>
-                                                <small>Project Manager</small>
-                                                {/* <div className="d-flex justify-content-center mt-3">
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-facebook-f"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-twitter"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-instagram"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-linkedin-in"></i></a>
-                                                </div> */}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Team/>
             {/* <!-- Team End --> */}
 
 
@@ -539,7 +467,7 @@ export default function Home() {
                             <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
                                 amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
                                 clita duo justo et tempor eirmod magna dolore erat amet</p>
-                            <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a>
+                            // <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a>
                         </div>
                         <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
                             <div className="owl-carousel testimonial-carousel border-start border-primary">
@@ -585,9 +513,6 @@ export default function Home() {
                 </div>
             </div> */}
             {/* <!-- Testimonial End --> */}
-
-
-            <Newsletter/>
         </>
     )
 }
