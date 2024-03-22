@@ -47,67 +47,63 @@ export default function Services() {
 
 
     {/* <!-- Service Start --> */}
-    <div className="container-fluid bg-light py-5">
-        <div className="container py-5">
-            <div className="row g-5 align-items-center">
-                <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
-                    <h1 className="mb-4">Our Excellent AI Solutions for Your Business</h1>
-                    <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                        amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                        clita duo justo et tempor eirmod magna dolore erat amet</p>
-                    <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a>
-                </div>
-                <div className="col-lg-7">
-                    <div className="row g-4">
-                        <div className="col-md-6">
-                            <div className="row g-4">
-                                <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
-                                    <div className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <div className="service-icon btn-square">
-                                            <i class='bx bxs-brain'></i>
-                                        </div>
-                                        <h5 className="mb-3">Robotic Automation</h5>
-                                        <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                            diam sed stet lorem.</p>
-                                        <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
-                                    </div>
-                                </div>
-                                <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                    <div className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <div className="service-icon btn-square">
-                                            <i className="fa fa-home fa-2x"></i>
-                                        </div>
-                                        <h5 className="mb-3">Machine learning</h5>
-                                        <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                            diam sed stet lorem.</p>
-                                        <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
+    <div className="container-fluid bg-light mt-5 py-5">
+                <div className="container py-5">
+                    <div className="row g-5 align-items-center">
+                        <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                            <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
+                            <h1 className="mb-4">Our Innovative Solutions for Your Business</h1>
+                            <p className="mb-4">Elevate your business with personalized solutions crafted to precisely align with your requirements, maximizing your potential for success.</p>
+                            <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a>
                         </div>
-                        <div className="col-md-6 pt-md-4">
+                        <div className="col-lg-7">
                             <div className="row g-4">
-                                <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
-                                    <div className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <div className="service-icon btn-square">
-                                            <i className="fa fa-home fa-2x"></i>
+                                <div className="col-md-6">
+                                    <div className="row g-4">
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-brain fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Advanced Generative AI Development</h5>
+                                                <p>Train your dataset to generate original outputs such as images, text, or music using state-of-the-art generative AI techniques.</p>
+                                                <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                            </div>
                                         </div>
-                                        <h5 className="mb-3">Education & Science</h5>
-                                        <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                            diam sed stet lorem.</p>
-                                        <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-graduation-cap fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Corporate Trainings</h5>
+                                                <p>Boost team expertise with customized Corporate Training Solutions for colleges and startups. Enhance learning, drive innovation, and thrive in today's competitive industry.</p>
+                                                <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="col-12 wow fadeIn" data-wow-delay="0.7s">
-                                    <div className="service-item d-flex flex-column justify-content-center text-center rounded">
-                                        <div className="service-icon btn-square">
-                                            <i className="fa fa-home fa-2x"></i>
+                                <div className="col-md-6 pt-md-4">
+                                    <div className="row g-4">
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-code fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">Custom Web Application Development</h5>
+                                                <p>Leverage our tailor-made services to address your specific industry needs, cater to your target audience, and enhance operational efficiency.</p>
+                                                <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                            </div>
                                         </div>
-                                        <h5 className="mb-3">Predictive Analysis</h5>
-                                        <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                            diam sed stet lorem.</p>
-                                        <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                            <div className="service-item d-flex flex-column justify-content-center text-center rounded">
+                                                <div className="service-icon btn-square">
+                                                    <i className="fa fa-brain fa-2x"></i>
+                                                </div>
+                                                <h5 className="mb-3">STEM Programs & ATL Lab Setup</h5>
+                                                <p>Transform education with Revolutionizing Education, featuring STEM Programs and AI-Robotics Labs, empowering students for future tech challenges.</p>
+                                                <a className="btn px-3 mt-auto mx-auto" href="*">Read More</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -115,9 +111,7 @@ export default function Services() {
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    {/* <!-- Service End --> */}
+            {/* <!-- Service End --> */}
 
 
     {/* <!-- Testimonial Start --> */
