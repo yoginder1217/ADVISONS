@@ -52,21 +52,12 @@ export default function Team() {
                 <div className="container py-5">
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-<<<<<<< HEAD
                             <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Core Team</div>
                             <h1 className="mb-4">Meet Our Experienced Team Members</h1>
                             {/* <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
                                 amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
                                 clita duo justo et tempor eirmod magna dolore erat amet</p>
                             <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a> */}
-=======
-                            <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Team</div>
-                            <h1 className="mb-4">Meet Our Experienced Team Members</h1>
-                            <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                                amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                                clita duo justo et tempor eirmod magna dolore erat amet</p>
-                            <a className="btn btn-primary rounded-pill px-4" href="*">Read More</a>
->>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
                         </div>
                         <div className="col-lg-7">
                             <div className="row g-4">
@@ -76,11 +67,7 @@ export default function Team() {
                                             <div className="team-item bg-white text-center rounded p-4 pt-0">
                                                 <img className="img-fluid rounded-circle p-4" src="assets/img/santosh.jpeg" alt="*" />
                                                 <h5 className="mb-0">Santosh Kumar</h5>
-<<<<<<< HEAD
                                                 <small>9 years experience in Renewal energy, VLSI design and AI</small>
-=======
-                                                <small>Founder & CEO</small>
->>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
                                                 {/* <div className="d-flex justify-content-center mt-3">
                                                     <a className="btn btn-square btn-primary m-1" href="*"><i
                                                         className="fab fa-facebook-f"></i></a>
@@ -97,11 +84,7 @@ export default function Team() {
                                             <div className="team-item bg-white text-center rounded p-4 pt-0">
                                                 <img className="img-fluid rounded-circle p-4" src="assets/img/Kuldeepji.png" alt="*" />
                                                 <h5 className="mb-0">Mayank Verma</h5>
-<<<<<<< HEAD
                                                 <small>15+ years of experience in Telecommunication</small>
-=======
-                                                <small>Executive Manager</small>
->>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
                                                 {/* <div className="d-flex justify-content-center mt-3">
                                                     <a className="btn btn-square btn-primary m-1" href="*"><i
                                                         className="fab fa-facebook-f"></i></a>
@@ -122,11 +105,7 @@ export default function Team() {
                                             <div className="team-item bg-white text-center rounded p-4 pt-0">
                                                 <img className="img-fluid rounded-circle p-4" src="assets/img/Kuldeepji.png" alt="*" />
                                                 <h5 className="mb-0">Sandeep Malhotra</h5>
-<<<<<<< HEAD
                                                 <small>6 years experience in Hardware Design, Data Science and AI</small>
-=======
-                                                <small>Co Founder</small>
->>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
                                                 {/* <div className="d-flex justify-content-center mt-3">
                                                     <a className="btn btn-square btn-primary m-1" href="*"><i
                                                         className="fab fa-facebook-f"></i></a>
@@ -143,11 +122,7 @@ export default function Team() {
                                             <div className="team-item bg-white text-center rounded p-4 pt-0">
                                                 <img className="img-fluid rounded-circle p-4" src="assets/img/Kuldeepji.png" alt="*" />
                                                 <h5 className="mb-0">Kuldeep Singh</h5>
-<<<<<<< HEAD
                                                 <small>10+ years experience in Data Engineering</small>
-=======
-                                                <small>Project Manager</small>
->>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
                                                 {/* <div className="d-flex justify-content-center mt-3">
                                                     <a className="btn btn-square btn-primary m-1" href="*"><i
                                                         className="fab fa-facebook-f"></i></a>

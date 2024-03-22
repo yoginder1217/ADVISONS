@@ -112,10 +112,7 @@ export default function Services() {
                 </div>
             </div>
             {/* <!-- Service End --> */}
-<<<<<<< HEAD
 
-=======
->>>>>>> 3c817600bfcb867611f381f6c177a9ca3874e340
 
     {/* <!-- Testimonial Start --> */
     /* <div className="container-xxl py-5">
