@@ -23,7 +23,7 @@ app.use(cors())
 
 app.use(express.json())
 app.use("/public", express.static("public"))
-// app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 
 app.use("/api/maincategory",MaincategoryRoutes)
@@ -39,7 +39,7 @@ app.use("/api/contact",ContactRoutes)
 app.use("/api/frontend",FrontendRoutes)
 
 
-// app.use('*', express.static(path.join(__dirname, 'build'))); 
+app.use('*', express.static(path.join(__dirname, 'build'))); 
 var port = process.env.PORT||80
 app.listen(port,()=>{
     console.log(`Server is Running at Port http://localhost:${port}`);

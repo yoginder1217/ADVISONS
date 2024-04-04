@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `Invalid options object. Dev Server has been initialized using an options object that does not match the API schema`
+
+This is the complete error: [
+module.exports = function (proxy, allowedHost) {
+const disableFirewall =
+!proxy || process.env.DANGEROUSLY_DISABLE_HOST_CHECK === 'true';
+return {
+
+    allowedHosts: disableFirewall ? 'all' : [allowedHost],
+}
+Invalid options object. Dev Server has been initialized using an options object that does not match the API schema.
+
+- options.allowedHosts[0] should be a non-empty string.
+  ]
+  (Solution:
+  allowedHosts: disableFirewall ? 'all' : [allowedHost || 'localhost'],
+  )
+
+### `MongooseServerSelectionError: connect ECONNREFUSED ::1:27017`
+
+Solution: 
+# network interfaces
+net:
+  ipv6: true
+  port: 27017
+  bindIp: localhost
+
+### `How to create users and their roles in mongoDB`
+
+db.createuser({user:"username", pwd:"password", roles:[{role:"check the roles using show roles in mongod shell", db:"database name"}]})

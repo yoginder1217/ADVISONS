@@ -1,4 +1,4 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
 // mongoose.connect("mongodb:127.0.0.1:27017/Server5pm")
 // .then(()=>{
@@ -8,11 +8,10 @@ const mongoose = require("mongoose")
 //     console.log(error)
 // })
 
-
 async function getConnect(){
     try{
-        // await mongoose.connect(process.env.DBKEY)
-        await mongoose.connect("mongodb://127.0.0.1:27017/Server")
+        await mongoose.connect(process.env.DBKEY)
+        // await mongoose.connect("mongodb://yoginder1217:Singh%4012345@localhost/Server");
         console.log("Data Base is Connected!!!");
     }
     catch(error){
