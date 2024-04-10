@@ -85,25 +85,8 @@ export default function Home() {
                                     <div className="row g-4">
                                         <div className="col-12 wow fadeIn" data-wow-delay="0.1s">
                                             <div className="team-item bg-white text-center rounded p-4 pt-0">
-                                                <img className="img-fluid rounded-circle p-4" src="assets/img/santosh.jpeg" alt="*" />
-                                                <h5 className="mb-0">Santosh Kumar</h5>
-                                                <small>9+ years experience in Renewal energy, VLSI design and AI</small>
-                                                {/* <div className="d-flex justify-content-center mt-3">
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-facebook-f"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-twitter"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-instagram"></i></a>
-                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
-                                                        className="fab fa-linkedin-in"></i></a>
-                                                </div> */}
-                                            </div>
-                                        </div>
-                                        <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
-                                            <div className="team-item bg-white text-center rounded p-4 pt-0">
-                                                <img className="img-fluid rounded-circle p-4" src="assets/img/Kuldeepji.png" alt="*" />
-                                                <h5 className="mb-0">Mayank Verma</h5>
+                                                 <img className="img-fluid rounded-circle p-4" src="assets/img/Kuldeepji.png" alt="*" />
+                                                 <h5 className="mb-0">Mayank Verma</h5>
                                                 <small>19+ years of experience in Telecommunication</small>
                                                 {/* <div className="d-flex justify-content-center mt-3">
                                                     <a className="btn btn-square btn-primary m-1" href="*"><i
@@ -115,6 +98,26 @@ export default function Home() {
                                                     <a className="btn btn-square btn-primary m-1" href="*"><i
                                                         className="fab fa-linkedin-in"></i></a>
                                                 </div> */}
+                                                
+                                            </div>
+                                        </div>
+                                        <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                            <div className="team-item bg-white text-center rounded p-4 pt-0">
+                                                
+                                                <img className="img-fluid rounded-circle p-4" src="assets/img/santosh.jpeg" alt="*" />
+                                                <h5 className="mb-0">Santosh Kumar Singh</h5>
+                                                <small>9+ years experience in Renewal energy, VLSI design and AI</small>
+                                                {/* <div className="d-flex justify-content-center mt-3">
+                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
+                                                        className="fab fa-facebook-f"></i></a>
+                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
+                                                        className="fab fa-twitter"></i></a>
+                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
+                                                        className="fab fa-instagram"></i></a>
+                                                    <a className="btn btn-square btn-primary m-1" href="*"><i
+                                                        className="fab fa-linkedin-in"></i></a>
+                                                </div> */}
+                                                
                                             </div>
                                         </div>
                                     </div>
