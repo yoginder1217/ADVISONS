@@ -98,4 +98,4 @@ net:
 
 ### `How to create users and their roles in mongoDB`
 
-db.createuser({user:"username", pwd:"password", roles:[{role:"check the roles using show roles in mongod shell", db:"database name"}]})
+db.createuser({user:"username", pwd:"password", roles:[{role:"check the roles using {show roles} in mongod shell", db:"database name"}]})
